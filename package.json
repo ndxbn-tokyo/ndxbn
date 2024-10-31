@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "ndxbn",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@tsconfig/bun": "1.0.7",
+    "@tsconfig/strictest": "2.0.5",
+    "@types/bun": "latest",
+    "lefthook": "1.8.2"
+  },
+  "peerDependencies": {
+    "typescript": "5.6.3"
+  },
+  "scripts": {
+    "postinstall": "bun scripts/postinstall.ts",
+    "dev": "bun src/main.ts",
+    "start": "bun src/main.ts",
+    "lint": "biome check",
+    "fmt": "biome check --write --unsafe"
+  }
+}
