@@ -9,4 +9,4 @@ ENV NODE_ENV=production
 RUN bun install
 
 ENTRYPOINT ["bun"]
-CMD ["start"]
+CMD ["cli"]
