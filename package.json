@@ -27,5 +27,6 @@
 		"prepack": "bun build src/index.ts src/cli.ts --outdir . --sourcemap --minify"
 	},
 	"files": [],
-	"repository": "github:ndxbn-tokyo/ndxbn"
+	"repository": "github:ndxbn-tokyo/ndxbn",
+	"homepage": "https://ndxbn-tokyo.github.io/ndxbn/"
 }
