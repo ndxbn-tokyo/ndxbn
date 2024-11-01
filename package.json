@@ -1,6 +1,6 @@
 {
 	"name": "ndxbn",
-	"version": "0.0.11-1",
+	"version": "0.0.11-2",
 	"type": "module",
 	"main": "index.js",
 	"exports": "./index.js",
@@ -24,8 +24,5 @@
 		"prepack": "bun build src/index.ts src/cli.ts --outdir . --sourcemap --minify"
 	},
 	"files": [],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ndxbn-tokyo/ndxbn"
-	}
+	"repository": "github:ndxbn-tokyo/ndxbn"
 }
