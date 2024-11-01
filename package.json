@@ -23,5 +23,6 @@
 		"fmt": "biome check --write --unsafe",
 		"prepack": "bun build src/index.ts src/cli.ts --outdir . --sourcemap --minify"
 	},
-	"files": []
+	"files": [],
+	"repository": "github:ndxbn-tokyo/ndxbn"
 }
