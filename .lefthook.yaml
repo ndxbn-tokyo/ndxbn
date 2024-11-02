@@ -1,3 +1,7 @@
+commit-msg:
+  commands:
+    commit-lint:
+      run: bunx -- commitlint --edit
 pre-push:
   commands:
     biome-check:
