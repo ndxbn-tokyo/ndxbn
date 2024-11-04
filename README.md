@@ -35,7 +35,7 @@ bun start
 bun test
 ```
 
-## use Docker for Optional Somethings
+## use Docker for Optional Something
 
 - startup Middlewares
 - [lint GitHub Action](./.github/lint.compose.yaml): do `cd .github` before run it

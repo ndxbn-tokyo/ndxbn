@@ -10,7 +10,8 @@
 		}
 	},
 	"files": {
-		"ignoreUnknown": true
+		"ignoreUnknown": true,
+		"ignore": ["out/"]
 	},
 	"vcs": {
 		"enabled": true,
