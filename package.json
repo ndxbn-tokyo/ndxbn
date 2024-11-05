@@ -1,7 +1,6 @@
 {
-	"private": true,
 	"name": "ndxbn",
-	"version": "0.0.0",
+	"version": "0.0.13",
 	"type": "module",
 	"main": "index.js",
 	"exports": "./index.js",
